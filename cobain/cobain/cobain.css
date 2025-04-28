@@ -1,0 +1,155 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 15px 30px;
+}
+
+header {
+  background: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0077ff;
+}
+
+.hero {
+  padding: 100px 40px;
+  text-align: center;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  background-color: #0077ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005fcc;
+}
+
+.content {
+  padding: 60px 40px;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.introduction img {
+  width: 300px;
+  height: auto;
+  background: #ddd;
+}
+
+.introduction h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.service {
+  background: #ffffff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 30%;
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+}
+
+.social-proof,
+.extras {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.scroll-section {
+  padding: 60px 40px;
+  background-color: #0077ff;
+  color: white;
+  text-align: center;
+}
+
+.scroll-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
